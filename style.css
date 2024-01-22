@@ -7,7 +7,7 @@
   --sub-color: #009385;
   --text-bright-color: #fff;
   --icon-color: #fff;
-  --icon-bk-color: #ddd;
+  --icon-bk-color: #009385;
 }
 
 body {
@@ -80,3 +80,61 @@ body {
 }
 /* // content A - 히어로 이미지*/
 
+/* contet B - 개요(아이콘 + 글자) */
+.conB .container {
+  padding-top: 80px;
+  padding-bottom: 20px;
+}
+
+.conB .text {
+  text-align: center;
+}
+
+.conB h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.conB p {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 1.8;
+  opacity: 0.8;
+}
+
+.conB a {
+  color: #c8102e;
+  color: var(--sub-color);
+  text-decoration: none;
+}
+
+.conB a:hover {
+  text-decoration: underline;
+}
+
+.conB .icon {
+  display: inline-block;
+  width: 2em;
+  margin-bottom: 20px;
+  border-radius: 100%;
+  background-color: #009385;
+  background-color: var(--icon-bk-color);
+  line-height: 2em;
+  color: #fff;
+  color: var(--icon-color);
+  font-size: 40px;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .conB .container {
+    display: flex;
+  }
+
+  .conB .text {
+    flex: 1;
+  }
+}
+/* // contet B - 개요(아이콘 + 글자) */
