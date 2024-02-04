@@ -5,6 +5,7 @@
   --main-color: #c8102e;
   --bg-color: #e3ddce;
   --sub-color: #009385;
+  --dark-main-color: #265b5f;
   --text-bright-color: #fff;
   --icon-color: #fff;
   --icon-bg-color: #c8102e;
@@ -155,12 +156,12 @@ body {
 .conC {
   background-color: #009385;
   background-color: var(--sub-color);
-  color: #fff;
-  color: var(--text-bright-color);
 }
 
 .conC .text {
   padding: 20px;
+  color: #fff;
+  color: var(--text-bright-color);
 }
 
 .conC h2 {
@@ -194,7 +195,7 @@ body {
 .conC a:hover {
   background-image: linear-gradient(
     rgba(255, 255, 255, 0.2),
-    rgba(0, 0, 0, 0.20)
+    rgba(0, 0, 0, 0.2)
   );
 }
 
@@ -209,7 +210,7 @@ body {
   .conC .container {
     display: flex;
     max-width: 1000px;
-    max-width:  var(--large-width);
+    max-width: var(--large-width);
     margin-left: auto;
     margin-right: auto;
   }
@@ -228,7 +229,6 @@ body {
 /* content D - 개요(이미지 + 글자) */
 .conD .container {
   padding-top: 2px;
-  
 }
 
 .conD .text {
@@ -267,7 +267,7 @@ body {
 .conD a:hover {
   background-image: linear-gradient(
     rgba(255, 255, 255, 0.2),
-    rgba(0, 0, 0, 0.20)
+    rgba(0, 0, 0, 0.2)
   );
 }
 
@@ -283,7 +283,7 @@ body {
     display: flex;
     flex-direction: row-reverse;
     max-width: 1000px;
-    max-width:  var(--large-width);
+    max-width: var(--large-width);
     margin-left: auto;
     margin-right: auto;
     padding-top: 40px;
@@ -300,3 +300,34 @@ body {
   }
 }
 /* // content D - 개요(이미지 + 글자) */
+/* footer - 사이트 정보 */
+footer {
+  color: #fff;
+  color: var(--text-bright-color);
+  background-color: #265b5f;
+  background-color: var(--dark-main-color);
+}
+
+footer .container {
+  padding: 40px 20px;
+}
+
+.footA h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-family: "Montserrat", "sans-serif";
+  font-size: 30px;
+  letter-spacing: 0.2em; 
+}
+
+.footA p {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 14px;
+}
+
+.footA a {
+  color: inherit;
+  text-decoration: none;
+}
+/* // footer - 사이트 정보 */
