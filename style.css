@@ -407,4 +407,29 @@ footer .container {
 /* // footerB: 푸터 메뉴 */
 
 /* footerC: 저작권 */
+.footC {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  text-align: center;
+}
 /* // footerC: 저작권 */
+
+/* footerD: SNS 메뉴 */
+.footD ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footD a {
+  display: flex;
+  padding: 5px;
+  color: inherit;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.footD a:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+/* // footerD: SNS 메뉴 */
