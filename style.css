@@ -26,7 +26,7 @@ header {
   left: 0;
   z-index: 100;
   width: 100%;
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255,255,255,0.9);
 }
 /* // header */
 
@@ -45,6 +45,42 @@ header {
   text-decoration: none;
 }
 /* // header A: 사이트 이름 */
+
+/* header B: 네이게이션 */
+.headB ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.headB a {
+  display: block;
+  padding: 15px;
+  color: inherit;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.headB a:hover {
+  background-color: rgba(0,0,0, 0.3);
+}
+
+@media (min-width: 768px) {
+  header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    max-width: var(--large-width);
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .headB ul {
+    display: flex;
+  }
+}
+/* // header B: 네이게이션 */
 
 /* content A - 히어로 이미지*/
 .conA {
