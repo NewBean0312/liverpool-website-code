@@ -104,12 +104,20 @@ header {
   .headC:hover {
     opacity: 0.3;
   }
+
+  .headB {
+    display: none;
+  }
 }
 
 @media (min-width: 768px) {
   /* 큰 화면 전용 설정 */
   .headC {
     display: none;
+  }
+
+  .headB {
+    display: block !important;
   }
 }
 /* // header C: 토글 버튼 */
