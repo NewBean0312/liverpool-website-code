@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>liverpool</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+    />
+    <style>
+      /* font-awesome의 대체 글자를 브라우저 화면에 출력하지 않기 위한 설정 */
+      .sr-only {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        border: 0;
+      }
+    </style>
+    <!-- font-awesome -->
+    <script
+      src="https://kit.fontawesome.com/2f3484107d.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script>
+      $(function () {
+        $(".headC").click(function () {
+          $(".headB").slideToggle();
+        });
+      });
+    </script>
+  </head>
+  <body class="nohero">
+    <header>
+      <div class="container">
+        <div class="container-small">
+          <a href="./index.html" class="headA">LIVERPOOL</a>
+          <button type="button" class="headC">
+            <span class="fa fa-bars" title="MENU"></span>
+          </button>
+        </div>
+        <nav class="headB">
+          <ul>
+            <li><a href="./index.html">TOP</a></li>
+            <li><a href="./content.html">Content</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <article class="post">
+      <div class="container">
+        <h1>Liverpool이란?</h1>
+        <p>
+          리버풀 FC는 영국 잉글랜드 머지사이드 주의 리버풀을 연고로 하는 프로
+          축구 구단입니다. 잉글랜드 프리미어 리그에 소속되어 있으며, 홈구장은
+          안필드입니다. 잉글랜드 1부 리그 누적 승점 1위이자 잉글랜드 구단 중 가장
+          많은 메이저 트로피와 더불어 모든 유럽 대항전 최다 우승 기록을
+          보유했으며, 특히 잉글랜드 구단 중 UEFA 챔피언스 리그 최다 우승
+          구단으로서 잉글랜드에서 유일하게 빅 이어를 영구 소장한 명문
+          구단입니다.
+        </p>
+        <p>
+          1892년에 창단되어 빌 샹클리, 밥 페이즐리, 조 페이건 재임기에
+          붉은 제국이라 불리는 압도적인 전성기를 보내면서 잉글랜드를 넘어 유럽
+          최정상급 클럽으로 그 명성을 알렸으며, 축구사에 길이 남을 명승부라
+          칭해지는 이스탄불의 기적과 안필드의 기적의 주인공이기도 합니다.
+        </p>
+      </div>
+    </article>
+    <footer>
+      <div class="container">
+        <div class="footA">
+          <h2>LIVERPOOL</h2>
+          <p>
+            주소 : Anfield Rd, Anfield, Liverpool L4 0TH 영국
+            <a href="https://www.liverpoolfc.com/" target="_blank"
+              >https://www.liverpoolfc.com/</a
+            >
+          </p>
+          <nav class="footD">
+            <ul>
+              <li>
+                <a href="#none">
+                  <span class="fa fa-twitter" title="Twitter"></span>
+                </a>
+              </li>
+              <li>
+                <a href="#none">
+                  <span class="fa fa-facebook" title="Facebook"></span>
+                </a>
+              </li>
+              <li>
+                <a href="#none">
+                  <span class="fa fa-google-plus" title="Google plus"></span>
+                </a>
+              </li>
+              <li>
+                <a href="#none">
+                  <span class="fa fa-instagram" title="Instagram"></span>
+                </a>
+              </li>
+              <li>
+                <a href="#none">
+                  <span class="fa fa-youtube" title="Youtube"></span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <nav class="footB">
+          <div>
+            <h3>ABOUT</h3>
+            <ul>
+              <li><a href="#none">설립</a></li>
+              <li><a href="#none">주소</a></li>
+              <li><a href="#none">지도</a></li>
+              <li><a href="#none">스태프</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3>SUPPORT</h3>
+            <ul>
+              <li><a href="#none">다운로드</a></li>
+              <li><a href="#none">1대1 상담</a></li>
+              <li><a href="#none">자주 문는 질문</a></li>
+              <li><a href="#none">문의</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3>CONTENTS</h3>
+            <ul>
+              <li><a href="#none">공지사항</a></li>
+              <li><a href="#none">비즈니스</a></li>
+              <li><a href="#none">프로필</a></li>
+              <li><a href="#none">채용</a></li>
+              <li><a href="#none">자유게시판</a></li>
+            </ul>
+          </div>
+        </nav>
+        <div class="footC">ⓒ LIVERPOOL corp. All rights reserved.</div>
+      </div>
+    </footer>
+  </body>
+</html>

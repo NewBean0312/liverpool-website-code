@@ -9,6 +9,7 @@
   --text-bright-color: #fff;
   --icon-color: #fff;
   --icon-bg-color: #c8102e;
+  --gray-color: #ddd;
   --large-width: 1000px;
 }
 
@@ -27,6 +28,12 @@ header {
   z-index: 100;
   width: 100%;
   background-color: rgba(255, 255, 255, 0.9);
+}
+
+.nohero header {
+  position: static;
+  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid var(--gray-color);
 }
 /* // header */
 
