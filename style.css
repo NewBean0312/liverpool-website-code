@@ -150,7 +150,7 @@ header {
 }
 /* // header C: 토글 버튼 */
 
-/* content page: 기사 */
+/* about page: 기사 */
 .post .container {
   max-width: 800px;
   max-width: var(--middle-width);
@@ -174,9 +174,9 @@ header {
 .post img {
   max-width: 100%;
 }
-/* // content page: 기사 */
+/* // about page: 기사 */
 
-/* content page: 빵 부스러기 리스트 */
+/* about page: 빵 부스러기 리스트 */
 .bread ol {
   display: flex;
   margin: 0;
@@ -202,9 +202,9 @@ header {
 .bread a:hover {
   background-color: rgba(0, 0, 0, 0.3);
 }
-/* // content page: 빵 부스러기 리스트 */
+/* // about page: 빵 부스러기 리스트 */
 
-/* content A - 히어로 이미지*/
+/* about A - 히어로 이미지*/
 .conA {
   display: flex;
   align-items: center;
@@ -267,7 +267,7 @@ header {
     font-size: 24px;
   }
 }
-/* // content A - 히어로 이미지*/
+/* // about A - 히어로 이미지*/
 
 /* contet B - 개요(아이콘 + 글자) */
 .conB .container {
@@ -337,7 +337,7 @@ header {
 }
 /* // contet B - 개요(아이콘 + 글자) */
 
-/* content C - 개요(이미지 + 글자) */
+/* about C - 개요(이미지 + 글자) */
 .conC {
   background-color: #009385;
   background-color: var(--sub-color);
@@ -409,9 +409,9 @@ header {
     padding: 50px;
   }
 }
-/* // content C - 개요(이미지 + 글자) */
+/* // about C - 개요(이미지 + 글자) */
 
-/* content D - 개요(이미지 + 글자) */
+/* about D - 개요(이미지 + 글자) */
 .conD .container {
   padding-top: 2px;
 }
@@ -484,7 +484,7 @@ header {
     padding: 50px;
   }
 }
-/* // content D - 개요(이미지 + 글자) */
+/* // about D - 개요(이미지 + 글자) */
 
 /* footer */
 footer {
