@@ -11,6 +11,26 @@
   --icon-bg-color: #c8102e;
   --gray-color: #ddd;
   --large-width: 1000px;
+  --middle-width: 800px;
+}
+
+/* font-size */
+@media (max-width: 599px) {
+  :root {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 799px) {
+  :root {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 800px) {
+  :root {
+    font-size: 18px;
+  }
 }
 
 body {
@@ -18,6 +38,7 @@ body {
   font-family: "맑은 고딕", "Apple SD Gothic Neo", sans-serif;
   background-color: #e3ddce;
   background-color: var(--bg-color);
+  font-size: 16px;
 }
 
 /* header */
@@ -128,6 +149,60 @@ header {
   }
 }
 /* // header C: 토글 버튼 */
+
+/* content page: 기사 */
+.post .container {
+  max-width: 800px;
+  max-width: var(--middle-width);
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px 10px;
+}
+
+.post h1 {
+  padding-left: 0.5rem;
+  border-left: 0.75rem solid #009385;
+  border-left: 0.75rem solid var(--sub-color);
+  font-size: 2rem;
+}
+
+.post p {
+  font-size: 1rem;
+  line-height: 2;
+}
+
+.post img {
+  max-width: 100%;
+}
+/* // content page: 기사 */
+
+/* content page: 빵 부스러기 리스트 */
+.bread ol {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.bread a {
+  display: block;
+  padding: 5px;
+  color: inherit;
+  font-size: 0.875rem;
+  text-decoration: none;
+}
+
+.bread a::after {
+  content: "\f054";
+  margin-left: 10px;
+  font-family: "FontAwesome";
+  opacity: 0.3;
+}
+
+.bread a:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+/* // content page: 빵 부스러기 리스트 */
 
 /* content A - 히어로 이미지*/
 .conA {
