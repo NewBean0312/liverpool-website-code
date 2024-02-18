@@ -204,7 +204,7 @@ header {
 }
 /* // about page: 빵 부스러기 리스트 */
 
-/* about A - 히어로 이미지*/
+/* content A - 히어로 이미지*/
 .conA {
   display: flex;
   align-items: center;
@@ -267,7 +267,7 @@ header {
     font-size: 24px;
   }
 }
-/* // about A - 히어로 이미지*/
+/* // content A - 히어로 이미지*/
 
 /* contet B - 개요(아이콘 + 글자) */
 .conB .container {
@@ -337,7 +337,7 @@ header {
 }
 /* // contet B - 개요(아이콘 + 글자) */
 
-/* about C - 개요(이미지 + 글자) */
+/* content C - 개요(이미지 + 글자) */
 .conC {
   background-color: #009385;
   background-color: var(--sub-color);
@@ -409,9 +409,9 @@ header {
     padding: 50px;
   }
 }
-/* // about C - 개요(이미지 + 글자) */
+/* // content C - 개요(이미지 + 글자) */
 
-/* about D - 개요(이미지 + 글자) */
+/* content D - 개요(이미지 + 글자) */
 .conD .container {
   padding-top: 2px;
 }
@@ -484,7 +484,73 @@ header {
     padding: 50px;
   }
 }
-/* // about D - 개요(이미지 + 글자) */
+/* // content D - 개요(이미지 + 글자) */
+
+/* history page: 이미지와 연혁 */
+.history {
+  background-color: #009385;
+  background-color: var(--sub-color);
+  color: #fff;
+  color: var(--text-bright-color);
+}
+
+.history .text {
+  padding: 20px;
+  color: #fff;
+  color: var(--text-bright-color);
+}
+
+.history h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.history .photo {
+  min-height: 300px;
+  background-image: url(./images/liverpool-history.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.history table{
+  border-collapse: collapse;
+  border-top: 1px solid #ddd;
+  border-top: 1px solid var(--gray-color);
+  font-size: 0.875rem;
+}
+
+.history th,
+.history td {
+  padding-top: 1.8rem;
+  padding-bottom: 1.8rem;
+  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid var(--gray-color);
+}
+
+.history th {
+  padding-left: 1rem;
+  text-align: left;
+  word-break: keep-all;
+}
+
+@media (min-width: 768px) {
+  .history .container {
+    max-width: 1000px;
+    max-width: var(--large-width);
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .history .photo {
+    height: 600px;
+  }
+
+  .history .text {
+    padding: 50px;
+  }
+}
+/* // history page: 이미지와 연혁 */
 
 /* footer */
 footer {
