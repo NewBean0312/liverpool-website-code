@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>liverpool FC</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+    />
+    <style>
+      /* font-awesome의 대체 글자를 브라우저 화면에 출력하지 않기 위한 설정 */
+      .sr-only {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        border: 0;
+      }
+    </style>
+    <!-- font-awesome -->
+    <script
+      src="https://kit.fontawesome.com/2f3484107d.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script>
+      $(function () {
+        $(".headC").click(function () {
+          $(".headB").slideToggle();
+        });
+      });
+    </script>
+  </head>
+  <body class="nohero">
+    <header>
+      <div class="container">
+        <div class="container-small">
+          <a href="./index.html" class="headA">LIVERPOOL FC</a>
+          <button type="button" class="headC">
+            <span class="fa fa-bars" title="MENU"></span>
+          </button>
+        </div>
+        <nav class="headB">
+          <ul>
+            <li><a href="./index.html">TOP</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./history.html">History</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <article class="post">
+      <div class="container">
+        <h1>문의</h1>
+        <p>Liverpool FC에 문의가 있다면 다음 연락처로 문의해주세요</p>
+        <div class="contact-wrap">
+          <div class="contact">
+            <span class="fa fa-phone"></span>
+            <h2>전화</h2>
+            <a href="tel:00012345678">000-1234-5678</a>
+          </div>
+          <div class="contact">
+            <span class="fa fa-envelope"></span>
+            <h2>이메일</h2>
+            <a href="mailto:contact@liverpool.net">contact@liverpool.net</a>
+          </div>
+        </div>
+      </div>
+    </article>
+    <footer>
+      <div class="container">
+        <div class="footA">
+          <h2>LIVERPOOL FC</h2>
+          <p>
+            주소 : Anfield Rd, Anfield, Liverpool L4 0TH 영국
+            <a href="https://www.liverpoolfc.com/" target="_blank"
+              >https://www.liverpoolfc.com/</a
+            >
+          </p>
+          <nav class="footD">
+            <ul>
+              <li>
+                <a href="#none">
+                  <span class="fa fa-twitter" title="Twitter"></span>
+                </a>
+              </li>
+              <li>
+                <a href="#none">
+                  <span class="fa fa-facebook" title="Facebook"></span>
+                </a>
+              </li>
+              <li>
+                <a href="#none">
+                  <span class="fa fa-google-plus" title="Google plus"></span>
+                </a>
+              </li>
+              <li>
+                <a href="#none">
+                  <span class="fa fa-instagram" title="Instagram"></span>
+                </a>
+              </li>
+              <li>
+                <a href="#none">
+                  <span class="fa fa-youtube" title="Youtube"></span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <nav class="footB">
+          <div>
+            <h3>ABOUT</h3>
+            <ul>
+              <li><a href="#none">설립</a></li>
+              <li><a href="#none">주소</a></li>
+              <li><a href="#none">지도</a></li>
+              <li><a href="#none">스태프</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3>SUPPORT</h3>
+            <ul>
+              <li><a href="#none">다운로드</a></li>
+              <li><a href="#none">1대1 상담</a></li>
+              <li><a href="#none">자주 문는 질문</a></li>
+              <li><a href="#none">문의</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3>CONTENTS</h3>
+            <ul>
+              <li><a href="#none">공지사항</a></li>
+              <li><a href="#none">비즈니스</a></li>
+              <li><a href="#none">프로필</a></li>
+              <li><a href="#none">채용</a></li>
+              <li><a href="#none">자유게시판</a></li>
+            </ul>
+          </div>
+        </nav>
+        <div class="footC">ⓒ LIVERPOOL FC corp. All rights reserved.</div>
+      </div>
+    </footer>
+  </body>
+</html>
