@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>liverpool FC</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+    />
+    <style>
+      /* font-awesome의 대체 글자를 브라우저 화면에 출력하지 않기 위한 설정 */
+      .sr-only {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        border: 0;
+      }
+    </style>
+    <!-- font-awesome -->
+    <script
+      src="https://kit.fontawesome.com/2f3484107d.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script>
+      $(function () {
+        $(".headC").click(function () {
+          $(".headB").slideToggle();
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="container-small">
+          <a href="./index.html" class="headA">LIVERPOOL FC</a>
+          <button type="button" class="headC">
+            <span class="fa fa-bars" title="MENU"></span>
+          </button>
+        </div>
+        <nav class="headB">
+          <ul>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./news.html">News</a></li>
+            <li><a href="./history.html">History</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="conA compact">
+      <div class="container">
+        <h1>NEWS</h1>
+        <p>Liverpool FC의 최근 소식들을 들려드립니다!</p>
+      </div>
+    </section>
+    <section class="listA">
+      <h1 class="sr-only">RECENT POST</h1>
+      <div class="container">
+        <article>
+          <a href="#none">
+            <div
+              class="photo"
+              style="background-image: url(./images/p01.jpg)"
+            ></div>
+            <div class="text">
+              <h2>모하메드 살라 1골 1도움 맹활약</h2>
+              <p>
+                리버풀, 살라의 활약으로 브렌트포드전 4-1 완파→리그 선두 질주
+              </p>
+            </div>
+          </a>
+        </article>
+        <article>
+          <a href="#none">
+            <div
+              class="photo"
+              style="background-image: url(./images/p02.jpg)"
+            ></div>
+            <div class="text">
+              <h2>모하메드 살라, 올여름 리버풀 떠나나?</h2>
+              <p>모하메드 살라가 올 시즌이 끝나고 리버풀을 떠날 것으로 추정</p>
+            </div>
+          </a>
+        </article>
+        <article>
+          <a href="#none">
+            <div
+              class="photo"
+              style="background-image: url(./images/p03.jpg)"
+            ></div>
+            <div class="text">
+              <h2>'우승 경쟁' 리버풀...부상자 2명 추가</h2>
+              <p>
+                짧은 일정 속에서 많은 경기를 치러야 하는데 부상자가 속출한 건
+                리버풀에 약점
+              </p>
+            </div>
+          </a>
+        </article>
+        <article>
+          <a href="#none">
+            <div
+              class="photo"
+              style="background-image: url(./images/p04.jpg)"
+            ></div>
+            <div class="text">
+              <h2>리버풀 차기 감독 유력한 ‘무패 행진’ 알론소</h2>
+              <p>
+                올 시즌 레버쿠젠 31경기 27승 4무 돌풍… 후방 빌드업·강한 압박
+                전술이 강점
+              </p>
+            </div>
+          </a>
+        </article>
+        <article>
+          <a href="#none">
+            <div
+              class="photo"
+              style="background-image: url(./images/p05.jpg)"
+            ></div>
+            <div class="text">
+              <h2>조타와 클롭... 'PL 1월 이달의 선수X감독' 수상</h2>
+              <p>
+                '리버풀 겹경사!' 디오고 조타X위르겐 클롭, 'PL 1월 이달의
+                선수X감독'
+              </p>
+            </div>
+          </a>
+        </article>
+        <article>
+          <a href="#none">
+            <div
+              class="photo"
+              style="background-image: url(./images/p06.png)"
+            ></div>
+            <div class="text">
+              <h2>리버풀의 심장 위르겐 클롭, 올 시즌을 끝으로 감독직 사임</h2>
+              <p>8년 반동안 팀을 이끈 위르겐 클롭... 리버풀과의 결별을 발표</p>
+            </div>
+          </a>
+        </article>
+        <article>
+          <a href="#none">
+            <div
+              class="photo"
+              style="background-image: url(./images/p07.jpg)"
+            ></div>
+            <div class="text">
+              <h2>살라 부상 생각보다 심각하다, 3~4주 OUT 예상…</h2>
+              <p>
+                모하메드 살라 3~4주 경기 뛰지 못할 것…리버풀-이집트 나란히
+                '울상'
+              </p>
+            </div>
+          </a>
+        </article>
+        <article>
+          <a href="#none">
+            <div
+              class="photo"
+              style="background-image: url(./images/p08.jpg)"
+            ></div>
+            <div class="text">
+              <h2>리버풀-아스널 경기… PGMOL 위원장, 또 오심 인정</h2>
+              <p>
+                “리버풀-아스널 경기 핸드볼은 PK가 맞습니다”… PGMOL 위원장, 또
+                오심 인정
+              </p>
+            </div>
+          </a>
+        </article>
+        <article>
+          <a href="#none">
+            <div
+              class="photo"
+              style="background-image: url(./images/p09.jpg)"
+            ></div>
+            <div class="text">
+              <h2>리버풀 비상이다! ‘넥스트 제라드’ 햄스트링 부상</h2>
+              <p>
+                중원의 엔진을 잃은 리버풀... 도미니크 소보슬라이가 햄스트링 부상
+              </p>
+            </div>
+          </a>
+        </article>
+        <article>
+          <a href="#none">
+            <div
+              class="photo"
+              style="background-image: url(./images/p10.jpg)"
+            ></div>
+            <div class="text">
+              <h2>반박 불가 EPL의 왕' 살라, 잉글랜드 축구 통산 200골 달성</h2>
+              <p>
+                모하메드 살라, 리버풀 통산 200골 기록... 파울러와 달글리시를 뛰어넘어
+              </p>
+            </div>
+          </a>
+        </article>
+        <article>
+          <a href="#none">
+            <div
+              class="photo"
+              style="background-image: url(./images/p11.jpg)"
+            ></div>
+            <div class="text">
+              <h2>리버풀, '캡틴 반다이크' 임명…"리버풀 주장이 돼 자랑스러워"</h2>
+              <p>
+                조던 헨더슨을 떠나보낸 리버풀이 핵심 버질 반다이크를 새로운 '캡틴'으로 임명
+              </p>
+            </div>
+          </a>
+        </article>
+        <article>
+          <a href="#none">
+            <div
+              class="photo"
+              style="background-image: url(./images/p12.jpg)"
+            ></div>
+            <div class="text">
+              <h2>리버풀 FC, 칼스버그와 '10년' 재계약 체결</h2>
+              <p>
+                리버풀 FC와 칼스버그는 기존의 장기적 파트너십 관계를 10년 더 연장
+              </p>
+            </div>
+          </a>
+        </article>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="footA">
+          <h2>LIVERPOOL FC</h2>
+          <p>
+            주소 : Anfield Rd, Anfield, Liverpool L4 0TH 영국
+            <a href="https://www.liverpoolfc.com/" target="_blank"
+              >https://www.liverpoolfc.com/</a
+            >
+          </p>
+          <nav class="footD">
+            <ul>
+              <li>
+                <a href="#none">
+                  <span class="fa fa-twitter" title="Twitter"></span>
+                </a>
+              </li>
+              <li>
+                <a href="#none">
+                  <span class="fa fa-facebook" title="Facebook"></span>
+                </a>
+              </li>
+              <li>
+                <a href="#none">
+                  <span class="fa fa-google-plus" title="Google plus"></span>
+                </a>
+              </li>
+              <li>
+                <a href="#none">
+                  <span class="fa fa-instagram" title="Instagram"></span>
+                </a>
+              </li>
+              <li>
+                <a href="#none">
+                  <span class="fa fa-youtube" title="Youtube"></span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <nav class="footB">
+          <div>
+            <h3>ABOUT</h3>
+            <ul>
+              <li><a href="#none">설립</a></li>
+              <li><a href="#none">주소</a></li>
+              <li><a href="#none">지도</a></li>
+              <li><a href="#none">스태프</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3>SUPPORT</h3>
+            <ul>
+              <li><a href="#none">다운로드</a></li>
+              <li><a href="#none">1대1 상담</a></li>
+              <li><a href="#none">자주 문는 질문</a></li>
+              <li><a href="#none">문의</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3>CONTENTS</h3>
+            <ul>
+              <li><a href="#none">공지사항</a></li>
+              <li><a href="#none">비즈니스</a></li>
+              <li><a href="#none">프로필</a></li>
+              <li><a href="#none">채용</a></li>
+              <li><a href="#none">자유게시판</a></li>
+            </ul>
+          </div>
+        </nav>
+        <div class="footC">ⓒ LIVERPOOL FC corp. All rights reserved.</div>
+      </div>
+    </footer>
+  </body>
+</html>

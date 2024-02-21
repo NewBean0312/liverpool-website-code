@@ -219,6 +219,13 @@ header {
   text-align: center;
 }
 
+.conA.compact {
+  height: 450px;
+  min-height: 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url(./images/list-hero.jpg);
+}
+
 .conA h1 {
   margin-top: 0;
   margin-left: 0.2em;
@@ -621,6 +628,39 @@ header {
 }
 /* // contact page: 지도 */
 
+/* 기사 목록 A */
+.listA a {
+  display: block;
+  margin: 10px;
+  border: 1px solid #ddd;
+  border: 1px solid var(--gray-color);
+  color: inherit;
+  text-decoration: none;
+}
+
+.listA a:hover {
+  opacity: 0.8;
+}
+
+.listA .photo {
+  min-height: 150px;
+  background-position: center;
+  background-size: cover;
+}
+
+.listA .text {
+  margin: 10px;
+}
+
+.listA h2 {
+  font-size: 18px;
+}
+
+.listA p {
+  font-size: 14px;
+  opacity: 0.8;
+}
+/* // 기사 목록 A */
 
 /* footer */
 footer {
