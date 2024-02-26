@@ -187,7 +187,7 @@ header {
 }
 /* // 빵 부스러기 리스트 */
 
-/* about page: 기사 */
+/* about, ticket page */
 .post .container {
   max-width: 800px;
   max-width: var(--middle-width);
@@ -203,15 +203,44 @@ header {
   font-size: 2rem;
 }
 
+.post h2 {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  font-size: 1.2rem;
+}
+
+.post span {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  margin-right: 10px;
+  background-color: #009385;
+  background-color: var(--sub-color);
+}
+
 .post p {
   font-size: 1rem;
   line-height: 2;
 }
 
+.post p > a {
+  color: #265b5f;
+  color: var(--dark-main-color);
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.post .season-benefits > li {
+  font-size: 1.05rem;
+  padding-bottom: 5px;
+}
+
 .post img {
   max-width: 100%;
 }
-/* // about page: 기사 */
+/* // about, ticket page */
 
 /* content A - 히어로 이미지*/
 .conA {
@@ -581,6 +610,7 @@ header {
 .contact span {
   display: inline-block;
   width: 2em;
+  height: 2em;
   margin-bottom: 20px;
   border-radius: 50%;
   background-color: #c8102e;
@@ -725,6 +755,7 @@ header {
   flex: 2;
   min-height: 200px;
   background-size: cover;
+  background-position: center;
 }
 
 .listB .text {

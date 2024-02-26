@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>liverpool FC</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+    />
+    <style>
+      /* font-awesome의 대체 글자를 브라우저 화면에 출력하지 않기 위한 설정 */
+      .sr-only {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        border: 0;
+      }
+    </style>
+    <!-- font-awesome -->
+    <script
+      src="https://kit.fontawesome.com/2f3484107d.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script>
+      $(function () {
+        $(".headC").click(function () {
+          $(".headB").slideToggle();
+        });
+      });
+    </script>
+  </head>
+  <body class="nohero">
+    <header>
+      <div class="container">
+        <div class="container-small">
+          <a href="./index.html" class="headA">LIVERPOOL FC</a>
+          <button type="button" class="headC">
+            <span class="fa fa-bars" title="MENU"></span>
+          </button>
+        </div>
+        <nav class="headB">
+          <ul>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./news.html">News</a></li>
+            <li><a href="./schedule.html">Schedule</a></li>
+            <li><a href="./history.html">History</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <article class="post">
+      <div class="container">
+        <div class="bread">
+          <ol>
+            <li><a href="./index.html">TOP</a></li>
+            <li><a href="./ticket.html">Ticket</a></li>
+          </ol>
+        </div>
+        <h1>Liverpool FC 시즌권</h1>
+        <img src="./images/kop.webp" alt="">
+        <h2><span></span>리버풀 시즌권이란?</h2>
+        <p>리버풀의 홈 경기를 관람할 수 있는 리버풀 FC 시즌권입니다.</p>
+        <h2><span></span>구매 방법</h2>
+        <p>
+          home / tickets / how to buy tickets /
+          <a
+            href="https://www.liverpoolfc.com/tickets/how-to-buy-tickets/season-ticket-holders"
+            target="_blank"
+            >season ticket holders</a
+          >
+        </p>
+        <h2><span></span>시즌권 혜택</h2>
+        <ol class="season-benefits">
+          <li>경기 관람 우선권</li>
+          <li>경기 일정 유연성</li>
+          <li>할인 혜택</li>
+          <li>특별 이벤트 및 체험</li>
+          <li>팬 커뮤니티 및 회원 혜택</li>
+        </ol>
+      </div>
+    </article>
+    <footer>
+      <div class="container">
+        <div class="footA">
+          <h2>LIVERPOOL FC</h2>
+          <p>
+            주소 : Anfield Rd, Anfield, Liverpool L4 0TH 영국
+            <a href="https://www.liverpoolfc.com/" target="_blank"
+              >https://www.liverpoolfc.com/</a
+            >
+          </p>
+          <nav class="footD">
+            <ul>
+              <li>
+                <a href="#none">
+                  <span class="fa fa-twitter" title="Twitter"></span>
+                </a>
+              </li>
+              <li>
+                <a href="#none">
+                  <span class="fa fa-facebook" title="Facebook"></span>
+                </a>
+              </li>
+              <li>
+                <a href="#none">
+                  <span class="fa fa-google-plus" title="Google plus"></span>
+                </a>
+              </li>
+              <li>
+                <a href="#none">
+                  <span class="fa fa-instagram" title="Instagram"></span>
+                </a>
+              </li>
+              <li>
+                <a href="#none">
+                  <span class="fa fa-youtube" title="Youtube"></span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <nav class="footB">
+          <div>
+            <h3>ABOUT</h3>
+            <ul>
+              <li><a href="#none">설립</a></li>
+              <li><a href="#none">주소</a></li>
+              <li><a href="#none">지도</a></li>
+              <li><a href="#none">스태프</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3>SUPPORT</h3>
+            <ul>
+              <li><a href="#none">다운로드</a></li>
+              <li><a href="#none">1대1 상담</a></li>
+              <li><a href="#none">자주 문는 질문</a></li>
+              <li><a href="#none">문의</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3>CONTENTS</h3>
+            <ul>
+              <li><a href="#none">공지사항</a></li>
+              <li><a href="#none">비즈니스</a></li>
+              <li><a href="#none">프로필</a></li>
+              <li><a href="#none">채용</a></li>
+              <li><a href="#none">자유게시판</a></li>
+            </ul>
+          </div>
+        </nav>
+        <div class="footC">ⓒ LIVERPOOL FC corp. All rights reserved.</div>
+      </div>
+    </footer>
+  </body>
+</html>
