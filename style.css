@@ -210,7 +210,7 @@ header {
   font-size: 1.2rem;
 }
 
-.post span {
+.post h2 > span {
   width: 10px;
   height: 10px;
   border-radius: 100%;
@@ -610,7 +610,6 @@ header {
 .contact span {
   display: inline-block;
   width: 2em;
-  height: 2em;
   margin-bottom: 20px;
   border-radius: 50%;
   background-color: #c8102e;
@@ -720,11 +719,11 @@ header {
 /* // 기사 목록 A */
 
 /* 기사 목록 B */
-.listB h1 {
+.player h1 {
   text-align: center;
 }
 
-.listB .container {
+.player .container {
   display: flex;
   flex-wrap: wrap;
   max-width: 1000px;
@@ -732,12 +731,12 @@ header {
   margin: 30px auto;
 }
 
-.listB article {
+.player article {
   display: flex;
   flex: 1 1 384px;
 }
 
-.listB a {
+.player a {
   display: flex;
   flex: 1;
   margin: 10px;
@@ -747,31 +746,31 @@ header {
   text-decoration: none;
 }
 
-.listB a:hover {
+.player a:hover {
   opacity: 0.8;
 }
 
-.listB .photo {
+.player .photo {
   flex: 2;
   min-height: 200px;
   background-size: cover;
   background-position: center;
 }
 
-.listB .text {
+.player .text {
   flex: 2;
   margin: 10px;
 }
 
-.listB h2 {
+.player h2 {
   font-size: 18px;
 }
 
-.listB h3 {
+.player h3 {
   font-size: 17px;
 }
 
-.listB span {
+.player span {
   padding: 1px 8px;
   border-radius: 8px;
   color: #fff;
@@ -780,22 +779,22 @@ header {
   font-weight: bold;
 }
 
-.listB p {
+.player p {
   font-size: 14px;
   opacity: 0.8;
 }
 
 @media (max-width: 384px) {
-  .listB .photo {
+  .player .photo {
     flex: 1;
     min-height: 0;
   }
 
-  .listB span {
+  .player span {
     display: none;
   }
 
-  .listB p {
+  .player p {
     display: none;
   }
 }
@@ -867,6 +866,88 @@ header {
   }
 }
 /* // 기사 목록 C */
+
+/* shop 페이지 */
+.shop h1 {
+  text-align: center;
+}
+
+.shop .container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  max-width: var(--large-width);
+  margin: 30px auto;
+}
+
+.shop article {
+  display: flex;
+  flex: 1 1 384px;
+}
+
+.shop a {
+  display: flex;
+  flex: 1;
+  margin: 10px;
+  border: 1px solid #ddd;
+  border: 1px solid var(--gray-color);
+  color: inherit;
+  text-decoration: none;
+}
+
+.shop a:hover {
+  opacity: 0.8;
+}
+
+.shop .photo {
+  flex: 2;
+  min-height: 200px;
+  background-size: cover;
+  background-position: center;
+}
+
+.shop .text {
+  flex: 2;
+  margin: 10px;
+}
+
+.shop h2 {
+  font-size: 16px;
+}
+
+.shop p {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #265b5f;
+  color: var(--dark-main-color);
+}
+
+.shop i {
+  color: #c8102e;
+  color: var(--main-color);
+  font-size: 0.8rem;
+}
+
+.shop span {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+@media (max-width: 384px) {
+  .shop .photo {
+    flex: 1;
+    min-height: 0;
+  }
+
+  .shop span {
+    display: none;
+  }
+
+  .shop i {
+    display: none;
+  }
+}
+/* // shop 페이지 */
 
 /* footer */
 footer {

@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>liverpool FC</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+    />
+    <style>
+      /* font-awesome의 대체 글자를 브라우저 화면에 출력하지 않기 위한 설정 */
+      .sr-only {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        border: 0;
+      }
+    </style>
+    <!-- font-awesome -->
+    <script
+      src="https://kit.fontawesome.com/2f3484107d.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script>
+      $(function () {
+        $(".headC").click(function () {
+          $(".headB").slideToggle();
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="container-small">
+          <a href="./index.html" class="headA">LIVERPOOL FC</a>
+          <button type="button" class="headC">
+            <span class="fa fa-bars" title="MENU"></span>
+          </button>
+        </div>
+        <nav class="headB">
+          <ul>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./news.html">News</a></li>
+            <li><a href="./schedule.html">Schedule</a></li>
+            <li><a href="./history.html">History</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="conA compact">
+      <div class="container">
+        <h1>SHOP</h1>
+        <p>Liverpool FC 관련 상품들을 살펴보세요!</p>
+      </div>
+    </section>
+    <section class="shop">
+      <div class="bread container">
+        <ol>
+          <li><a href="./index.html" style="margin: 0;">TOP</a></li>
+          <li><a href="./shop.html" style="margin: 0;">Shop</a></li>
+        </ol>
+      </div>
+      <h1 class="sr-only">RECENT POST</h1>
+      <div class="container">
+        <article>
+          <a href="#none">
+            <div
+              class="photo"
+              style="background-image: url(./images/sh01.jpg)"
+            ></div>
+            <div class="text">
+              <h2>LFC Nike Mens 23/24 Home Stadium Jersey</h2>
+              <p>£74.95</p>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <span>827 Reviews</span>
+            </div>
+          </a>
+        </article>
+        <article>
+          <a href="#none">
+            <div
+              class="photo"
+              style="background-image: url(./images/sh02.jpg)"
+            ></div>
+            <div class="text">
+              <h2>LFC Nike Mens 23/24 Home Stadium Shorts</h2>
+              <p>£30.00 <span style="text-decoration: line-through;">£37.95</span></p>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <span>222 Reviews</span>
+            </div>
+          </a>
+        </article>
+        <article>
+          <a href="#none">
+            <div
+              class="photo"
+              style="background-image: url(./images/sh03.jpg)"
+            ></div>
+            <div class="text">
+              <h2>LFC Nike 23/24 Home Socks</h2>
+              <p>£14.00 <span style="text-decoration: line-through;">£16.95</span></p>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <span>63 Reviews</span>
+            </div>
+          </a>
+        </article>
+        <article>
+          <a href="#none">
+            <div
+              class="photo"
+              style="background-image: url(./images/sh04.jpg)"
+            ></div>
+            <div class="text">
+              <h2>LFC Nike Mens 23/24 Windrunner Hooded Jacket Black & Green</h2>
+              <p>£67.00 <span style="text-decoration: line-through;">£89.95</span></p>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <span>10 Reviews</span>
+            </div>
+          </a>
+        </article>
+        <article>
+          <a href="#none">
+            <div
+              class="photo"
+              style="background-image: url(./images/sh05.jpg)"
+            ></div>
+            <div class="text">
+              <h2>LFC Nike Mens 23/24 Home Stadium Jersey</h2>
+              <p>£27.95</p>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <span>19 Reviews</span>
+            </div>
+          </a>
+        </article>
+        <article>
+          <a href="#none">
+            <div
+              class="photo"
+              style="background-image: url(./images/sh06.jpg)"
+            ></div>
+            <div class="text">
+              <h2>LFC Nike Zoom Pegasus 40 Trainers</h2>
+              <p>£124.95</p>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <span>41 Reviews</span>
+            </div>
+          </a>
+        </article>
+        <article>
+          <a href="#none">
+            <div
+              class="photo"
+              style="background-image: url(./images/sh07.jpg)"
+            ></div>
+            <div class="text">
+              <h2>LFC Nike Mens 23/24 Short Sleeve Strike Top</h2>
+              <p>£20.00 <span style="text-decoration: line-through;">£39.95</span></p>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <span>17 Reviews</span>
+            </div>
+          </a>
+        </article>
+        <article>
+          <a href="#none">
+            <div
+              class="photo"
+              style="background-image: url(./images/sh08.jpeg)"
+            ></div>
+            <div class="text">
+              <h2>LFC Nike Mens 23/24 Home Stadium Jersey</h2>
+              <p>£50.00 <span style="text-decoration: line-through;">£74.95</span></p>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <span>13 Reviews</span>
+            </div>
+          </a>
+        </article>
+        <article>
+          <a href="#none">
+            <div
+              class="photo"
+              style="background-image: url(./images/sh09.jpg)"
+            ></div>
+            <div class="text">
+              <h2>LFC Nike Youth 23/24 Short Sleeve Strike Training Top Black</h2>
+              <p>£27.00 <span style="text-decoration: line-through;">£37.95</span></p>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <span>8 Reviews</span>
+            </div>
+          </a>
+        </article>
+        <article>
+          <a href="#none">
+            <div
+              class="photo"
+              style="background-image: url(./images/sh10.jpg)"
+            ></div>
+            <div class="text">
+              <h2>LFC Zip Through Hoody Black</h2>
+              <p>£38.00</p>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <span>264 Reviews</span>
+            </div>
+          </a>
+        </article>
+        <article>
+          <a href="#none">
+            <div
+              class="photo"
+              style="background-image: url(./images/sh11.jpg)"
+            ></div>
+            <div class="text">
+              <h2>LFC Zip Through Hoody Navy</h2>
+              <p>£74.95</p>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <span>208 Reviews</span>
+            </div>
+          </a>
+        </article>
+        <article>
+          <a href="#none">
+            <div
+              class="photo"
+              style="background-image: url(./images/sh12.jpg)"
+            ></div>
+            <div class="text">
+              <h2>LFC Adults Liverbird Navy Hoody</h2>
+              <p>£35.00</p>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <span>32 Reviews</span>
+            </div>
+          </a>
+        </article>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="footA">
+          <h2>LIVERPOOL FC</h2>
+          <p>
+            주소 : Anfield Rd, Anfield, Liverpool L4 0TH 영국
+            <a href="https://www.liverpoolfc.com/" target="_blank"
+              >https://www.liverpoolfc.com/</a
+            >
+          </p>
+          <nav class="footD">
+            <ul>
+              <li>
+                <a href="#none">
+                  <span class="fa fa-twitter" title="Twitter"></span>
+                </a>
+              </li>
+              <li>
+                <a href="#none">
+                  <span class="fa fa-facebook" title="Facebook"></span>
+                </a>
+              </li>
+              <li>
+                <a href="#none">
+                  <span class="fa fa-google-plus" title="Google plus"></span>
+                </a>
+              </li>
+              <li>
+                <a href="#none">
+                  <span class="fa fa-instagram" title="Instagram"></span>
+                </a>
+              </li>
+              <li>
+                <a href="#none">
+                  <span class="fa fa-youtube" title="Youtube"></span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <nav class="footB">
+          <div>
+            <h3>ABOUT</h3>
+            <ul>
+              <li><a href="#none">설립</a></li>
+              <li><a href="#none">주소</a></li>
+              <li><a href="#none">지도</a></li>
+              <li><a href="#none">스태프</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3>SUPPORT</h3>
+            <ul>
+              <li><a href="#none">다운로드</a></li>
+              <li><a href="#none">1대1 상담</a></li>
+              <li><a href="#none">자주 문는 질문</a></li>
+              <li><a href="#none">문의</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3>CONTENTS</h3>
+            <ul>
+              <li><a href="#none">공지사항</a></li>
+              <li><a href="#none">비즈니스</a></li>
+              <li><a href="#none">프로필</a></li>
+              <li><a href="#none">채용</a></li>
+              <li><a href="#none">자유게시판</a></li>
+            </ul>
+          </div>
+        </nav>
+        <div class="footC">ⓒ LIVERPOOL FC corp. All rights reserved.</div>
+      </div>
+    </footer>
+  </body>
+</html>
